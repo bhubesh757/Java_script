@@ -1,0 +1,13 @@
+/* to display the date and time in javascript*/
+
+<html>
+    <head>
+        <h2> second javascript demo  </h2>
+        <body>
+<button type="button"onclick = "document.getElementById('sample'),innerHTML = Date()">
+        click me to display date & time
+</button>
+<p id = "sample"><</p>
+        </body>
+    </head>
+</html>
