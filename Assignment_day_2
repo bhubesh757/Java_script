@@ -11,6 +11,51 @@ console.log("Hey ", name ,"welcome to my page")
 var age = prompt("what is your age")
 console.log("your age is :", age  )
 
+
+//  question 2
+
+// string methods
+
+let str = "hi this is bhubesh , web page developer"
+
+console.log(str)  
+//  to print the string
+
+// string length
+console.log(str.length);
+// string slice
+console.log(str.slice(5 ,15)) // extracts a part of a string and returns the extracted part in a new string.
+// substring
+console.log(str.substring(1 , 5));
+// substr  // he difference is that the second parameter specifies the length of the extracted part.
+console.log(str.substring(1 , 11));
+// replace()  //The replace() method replaces a specified value with another value in a string:
+console.log(str.replace("bhubesh" , "charan"))
+// trim() //The trim() method removes whitespace from both sides of a string:
+console.log(str.trim());
+// charCodeAt()
+console.log(str.charCodeAt(0))
+
+
+
+// Array methods
+
+let arr = ["bhubesh" , "charan" , "shobika" , "divya" ,]
+let arr1 = ["joy" , "rio"]
+console.log(arr)
+
+
+// tostring()The JavaScript method toString() converts an array to a string of (comma separated) array values.
+console.log)(arr.toString)
+// join()
+console.log(arr.join("karan"));
+// shift()
+console.log(arr.shift())
+// splice();
+console.log(arr.splice("good day"))
+// concat()
+console.log(arr.concat(arr1))
+
 // Question 3:
 // Ask the user if he is 21+ and log the value "Can drink", "Cannot Drink"
 
