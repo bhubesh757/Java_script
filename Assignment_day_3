@@ -1,0 +1,49 @@
+/ q1:
+
+let num = Number(prompt("enter the number"));
+console.log(num)
+
+
+if(num % 2 == 0){
+
+    console.log("the given number is Even");
+}
+else{
+    console.log("the given number is odd");
+}
+
+
+// q2:
+
+let user = function(os = "android" , version = "9"){
+
+    console.log(`The OS name ${os}  and version is ${version}`)
+}
+
+user()
+
+// 
+
+
+
+
+
+
+// using coditional statemnents
+
+let mark = Number(prompt("Enter the Mark"));
+console.log(mark)
+
+if (mark = 50){
+
+    console.log(`Marks are ${mark} and grade is B`)
+}
+
+
+mark()
+
+
+// using ternary operator
+
+let mark = Number(prompt("Enter the Mark"));
+console.log(mark = 50 ? `Marks are ${mark} and grade is B` : "Marks are lessthan or greater than b , the grade will be A or C or D");
