@@ -1,3 +1,5 @@
+<?php include 'sendemail.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
