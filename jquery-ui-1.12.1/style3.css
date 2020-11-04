@@ -1,0 +1,13 @@
+#div1{
+    border: 2px solid blue;
+    padding:20px;
+}
+
+#draggable { 
+    width: 100px;
+     height: 100px;
+      padding: 20px; 
+      background-color: blanchedalmond;
+      margin: 20px;
+
+}
